@@ -1,0 +1,5 @@
+/home/sicra/AndroidStudioProjects/AsteroidesDArcis/app/build/intermediates/classes/debug
+/home/sicra/AndroidStudioProjects/AsteroidesDArcis/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-55299b481f4e177543ac7e19203af43b3bbbcf41.jar
+/home/sicra/AndroidStudioProjects/AsteroidesDArcis/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-377199422670036a1f894b6a48ec5fea821972a2.jar
+/home/sicra/AndroidStudioProjects/AsteroidesDArcis/app/build/intermediates/pre-dexed/debug/classes-bc6d45d0c12e9b34e77f2fbaf9164688141496c7.jar
+/home/sicra/AndroidStudioProjects/AsteroidesDArcis/app/build/intermediates/pre-dexed/debug/classes-c618bd0fdc8a9b32ec50ccd137f96565b9d9b3ee.jar

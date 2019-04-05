@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".Asteroides">
+    <item
+        android:id="@+id/action_config"
+        android:title="@string/btn_config"
+        android:icon="@drawable/ic_action_settings"/>
+
+    <item
+        android:id="@+id/action_acercade"
+        android:title="@string/btn_acerca_de"
+        android:icon="@drawable/ic_action_about"/>
+</menu>

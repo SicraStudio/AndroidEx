@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:orientation="vertical"
+                android:background="@drawable/bg_inicio"
+                tools:context=".Asteroides">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/titulo"
+            android:textColor="@color/blanco"
+            android:textSize="35sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom" >
+
+        <Button
+            android:id="@+id/botonJugar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/btn_jugar"
+            android:textColor="@color/blanco"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/botonConfig"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/botonJugar"
+            android:layout_centerHorizontal="true"
+            android:text="@string/btn_config"
+            android:textColor="@color/blanco"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/botonAcercaDe"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/botonConfig"
+            android:layout_centerHorizontal="true"
+            android:text="@string/btn_acerca_de"
+            android:textColor="@color/blanco"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/botonSalir"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/botonAcercaDe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/btn_salir"
+            android:textColor="@color/blanco"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.sicrastudio.examen2ev.MenuInicial">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAltas"
+        android:id="@+id/buttonAltas"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:onClick="buttonClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnPref"
+        android:id="@+id/buttonPref"
+        android:layout_below="@+id/buttonAltas"
+        android:layout_centerHorizontal="true"
+        android:onClick="buttonClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAcerca"
+        android:id="@+id/buttonAcerca"
+        android:layout_below="@+id/buttonPref"
+        android:layout_centerHorizontal="true"
+        android:onClick="buttonClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSalir"
+        android:id="@+id/buttonSalir"
+        android:layout_below="@+id/buttonAcerca"
+        android:layout_centerHorizontal="true"
+        android:onClick="buttonClick"/>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Asteroides</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo">ASTEROIDES</string>
+    <string name="btn_jugar">Jugar</string>
+    <string name="btn_config">Configurar</string>
+    <string name="btn_acerca_de">Acerca de</string>
+    <string name="btn_salir">Salir</string>
+    <string name="acerca_de">Esta aplicación ha sido desarrollada en la asignatura de programación de dispositivos móviles.</string>
+    <string name="title_activity_acerca_de">Acerca de</string>
+    <string name="title_activity_juego">Juego</string>
+    <string name="titulo_2">ASTEROIDES</string>
+
+</resources>

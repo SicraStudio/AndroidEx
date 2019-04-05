@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nomContinentes">
+        <item>Asia</item>
+        <item>America</item>
+        <item>Europa</item>
+    </string-array>
+    <string-array name="codContinentes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="eu">
+        <item>España</item>
+        <item>Francia</item>
+        <item>Italia</item>
+        <item>UK</item>
+    </string-array>
+    <string-array name="am">
+        <item>EEUU</item>
+        <item>México</item>
+        <item>Canadá</item>
+        <item>Brasil</item>
+    </string-array>
+    <string-array name="as">
+        <item>Korea Sur</item>
+        <item>Japón</item>
+        <item>China</item>
+        <item>India</item>
+    </string-array>
+</resources>
